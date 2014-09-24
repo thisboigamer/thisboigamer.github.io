@@ -22,10 +22,12 @@ body {
   }
 
 .headerCover {
-  height: 6.854em;
-  background-image: url('image/this-boi-gamer-header02.jpg');
-  background-size: cover;
-  color: black; text-shadow: .046em .046em 0 #fff;
+  height: 100%;
+  width: 100%;
+  background: url('image/this-boi-gamer-header02.jpg') no-repeat top center fixed;
+  background-size: 75%;
+
+  background-clip: padding-box;
 }
 
 h1 {
@@ -34,15 +36,19 @@ h1 {
 	font-family: "Monaco";
 	line-height: .749em;
 	color: #3CB371;
+  background-color: none;
   margin: .618em;
+  margin-bottom: 11.089em;
+
 }
 
 h2 {
   font-size: 1.957em;
   line-height: .056em;
-  margin-left: 1.618em;
+  margin: 1.618em;
   font-family: "Monaco";
   font-weight: bold;
+  background-color: black;
   color: white;
 }
 
@@ -51,6 +57,7 @@ h3 {
   margin: .748em;
   font-size:1.21em;
   font-family: "Monaco";
+  background-color: black;
   }
 
 
@@ -61,20 +68,24 @@ p {
 	line-height: 1.21em;
 	margin-left: 3.167em;
 	font-family: "Helvetica";
+	background-color: black;
 }
 
 ul {
   margin: 2.157em;
   font-size: 1.21em;
+  background-color: black;
   }
 
 /*Navigate layout*/
 
 #navigate {
   margin-top: 0em;
+  background-color: black;
   }
 #navigate li {
   display: inline-block;
+  background-color: black;
 }
 #navigate a {
   display: inline-block;
@@ -91,6 +102,7 @@ ul {
   font-family: "Monaco";
   display: block;
   text-indent: 2.157em;
+  background-color: black;
 }
 
 
@@ -101,5 +113,6 @@ ul {
   font-weight: bolder;
   .content p {
     display: inline;
+    background-color: black;
   }
 
