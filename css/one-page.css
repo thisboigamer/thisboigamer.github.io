@@ -84,7 +84,7 @@ h3 {
 p {
 	margin: 1.21em;
 	font-size: 1em;
-	line-height: 1.21em;
+	line-height: 1.618em;
 	margin-left: 3.167em;
 	font-family: "Helvetica";
 	background-color: black;
@@ -148,7 +148,8 @@ ul {
 .atari {
   position: relative;
   margin-left: 39em;
-  margin-top: -35.118em;
+  margin-top: -46.971em;
+  margin-bottom: 8.291em;
 
   }
 
