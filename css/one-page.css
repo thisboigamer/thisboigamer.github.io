@@ -23,7 +23,7 @@ body {
 
 .headerCover {
   height: 100%;
-  width: 100%;
+  max-width: 100%;
   background: url('image/this-boi-gamer-header02.jpg') no-repeat top center fixed;
   background-size: 75%;
 
@@ -31,7 +31,7 @@ body {
 }
 
 .games {
-height: 100%;
+  height: 100%;
   width: 100%;
   background: url('image/cover.jpg') no-repeat center center fixed;
   background-size: 60%;
@@ -112,9 +112,8 @@ ul {
 
 .section_title {
   font-family: "Monaco";
-  display: block;
   text-indent: 2.157em;
-  background-color: black;
+  position: relative;
 }
 
 
@@ -123,8 +122,25 @@ ul {
   color : #3CB371;
   font-family: "Helvetica";
   font-weight: bolder;
-  .content p {
-    display: inline;
-    background-color: black;
+  }
+
+.content {
+  width: 35em;
+  position: relative;
+  }
+
+.transgression {
+  position: relative;
+  margin-left: 39em;
+  margin-top: -35.118em;
+  height: 20%;
+
+  }
+
+.atari {
+  position: relative;
+  margin-left: 39em;
+  margin-top: -35.118em;
+
   }
 
