@@ -1,0 +1,105 @@
+/*
+YUI 3.17.2 (build 9c3c78e)
+Copyright 2014 Yahoo! Inc. All rights reserved.
+Licensed under the BSD License.
+http://yuilibrary.com/license/
+*/
+
+html{color:#000;background:black}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}ol,ul{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}q:before,q:after{content:''}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:text-top}sub{vertical-align:text-bottom}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;*font-size:100%}legend{color:#000}#yui3-css-stamp.cssreset{display:none}
+
+html {
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+	line-height: 1em; /* 24px at golden scale */
+	font-size: .824em;
+}
+
+body {
+  color: white;
+  background-color: black;
+  }
+
+.headerCover {
+  height: 6.854em;
+  background-image: url('image/this-boi-gamer-header02.jpg');
+  background-size: cover;
+  color: black; text-shadow: .046em .046em 0 #fff;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 2.618em;
+	font-family: "Monaco";
+	line-height: .749em;
+	color: #3CB371;
+  margin: .618em;
+}
+
+h2 {
+  font-size: 1.957em;
+  line-height: .056em;
+  margin-left: 1.618em;
+  font-family: "Monaco";
+  font-weight: bold;
+  color: white;
+}
+
+h3 {
+  font-style: italic;
+  margin: .748em;
+  font-size:1.21em;
+  font-family: "Monaco";
+  }
+
+
+
+p {
+	margin: 1.21em;
+	font-size: 1em;
+	line-height: 1.21em;
+	margin-left: 3.167em;
+	font-family: "Helvetica";
+}
+
+ul {
+  margin: 2.157em;
+  font-size: 1.21em;
+  }
+
+/*Navigate layout*/
+
+#navigate {
+  margin-top: 0em;
+  }
+#navigate li {
+  display: inline-block;
+}
+#navigate a {
+  display: inline-block;
+  background-color: #3CB371;
+  color: #000;
+  padding: .286em .286em;
+  font-size: 1.21 em;
+  font-family: "Monaco";
+}
+
+/*Body Layout*/
+
+.section_title {
+  font-family: "Monaco";
+  display: block;
+  text-indent: 2.157em;
+}
+
+
+
+.section_title:hover {
+  color : #3CB371;
+  font-family: "Helvetica";
+  font-weight: bolder;
+  .content p {
+    display: inline;
+  }
+
