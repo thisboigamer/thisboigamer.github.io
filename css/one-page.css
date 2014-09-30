@@ -22,45 +22,32 @@ html {
 	font-size: .824em;
 }
 
+/*Navigation bar layout*/
+
+#navigate {
+  margin-top: 0em;
+  background-color: black;
+  }
+#navigate li {
+  display: inline-block;
+  background-color: black;
+}
+#navigate a {
+  display: inline-block;
+  background-color: #3CB371;
+  color: #000;
+  padding: .286em .286em;
+  font-size: 1.21 em;
+  font-family: "Monaco";
+}
+
+/*Webpage font formats*/
+
 body {
   color: white;
   background-color: black;
   }
-
-.headerCover {
-  height: 100%;
-  max-width: 100%;
-  background: url('image/this-boi-gamer-header02.jpg') no-repeat top center fixed;
-  background-size: 60%;
-  background-clip: padding-box;
-}
-
-.games {
-  height: 100%;
-  max-width:100%;
-  width: 100%;
-  background: url('image/cover.jpg') no-repeat center center fixed;
-  background-size: 60%;
-  background-clip: padding-box;
-}
-
-.games h1 {
-  visibility: hidden;
-  }
-
-.art {
-  height: 100%;
-  max-width:100%;
-  width: 100%;
-  background: url('image/vector-drawing.jpg') no-repeat center center fixed;
-  background-size: 20%;
-  background-clip: padding-box;
-}
-
-.art h1 {
-  visibility: hidden;
-  }
-
+ 
 h1 {
 	font-weight: bold;
 	font-size: 2.618em;
@@ -109,27 +96,6 @@ ul {
   background-color: black;
   }
 
-/*Navigate layout*/
-
-#navigate {
-  margin-top: 0em;
-  background-color: black;
-  }
-#navigate li {
-  display: inline-block;
-  background-color: black;
-}
-#navigate a {
-  display: inline-block;
-  background-color: #3CB371;
-  color: #000;
-  padding: .286em .286em;
-  font-size: 1.21 em;
-  font-family: "Monaco";
-}
-
-/*Body Layout*/
-
 .section_title {
   font-family: "Monaco";
   text-indent: 2.157em;
@@ -137,7 +103,7 @@ ul {
 }
 
 
-
+/*Special Hover Effects for text*/
 .section_title:hover {
   color : #3CB371;
   font-family: "Helvetica";
@@ -156,6 +122,7 @@ aside {
   position: relative;
   }
 
+/*Webpage images*/
 
 img{
   max-width: 15%;
@@ -170,16 +137,45 @@ img:hover{
   max-width: 60%;
   height: auto;
 }
-/*.transgression {
-  position: relative;
 
 
+
+/*Background Images*/
+
+.headerCover {
+  height: 100%;
+  max-width: 100%;
+  background: url('image/this-boi-gamer-header02.jpg') no-repeat top center fixed;
+  background-size: 60%;
+  background-clip: padding-box;
+}
+
+.games {
+  height: 100%;
+  max-width:100%;
+  width: 100%;
+  background: url('image/cover.jpg') no-repeat center center fixed;
+  background-size: 60%;
+  background-clip: padding-box;
+}
+
+.art {
+  height: 100%;
+  max-width:100%;
+  width: 100%;
+  background: url('image/vector-drawing.jpg') no-repeat center center fixed;
+  background-size: 20%;
+  background-clip: padding-box;
+}
+
+/*Creates windows in the text to see the background images*/
+
+.games h1 {
+  visibility: hidden;
   }
-
-.atari {
-  position: relative;
-
+  
+.art h1 {
+  visibility: hidden;
   }
-
 
 
