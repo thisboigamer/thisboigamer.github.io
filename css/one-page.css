@@ -31,13 +31,13 @@ body {
   height: 100%;
   max-width: 100%;
   background: url('image/this-boi-gamer-header02.jpg') no-repeat top center fixed;
-  background-size: 75%;
-
+  background-size: 60%;
   background-clip: padding-box;
 }
 
 .games {
   height: 100%;
+  max-width:100%;
   width: 100%;
   background: url('image/cover.jpg') no-repeat center center fixed;
   background-size: 60%;
@@ -45,6 +45,19 @@ body {
 }
 
 .games h1 {
+  visibility: hidden;
+  }
+
+.art {
+  height: 100%;
+  max-width:100%;
+  width: 100%;
+  background: url('image/vector-drawing.jpg') no-repeat center center fixed;
+  background-size: 20%;
+  background-clip: padding-box;
+}
+
+.art h1 {
   visibility: hidden;
   }
 
@@ -120,7 +133,7 @@ ul {
 .section_title {
   font-family: "Monaco";
   text-indent: 2.157em;
-  position: relative;
+  position: static;
 }
 
 
@@ -131,25 +144,40 @@ ul {
   font-weight: bolder;
   }
 
-.content {
-  width: 35em;
+
+
+a {
+  font-size: 1.957em;
+  line-height: 1.21em;
+}
+
+aside {
+  float: right;
   position: relative;
   }
 
-.transgression {
+
+img{
+  max-width: 15%;
+  height: auto;
+  display : boxed;
+  position : relative;
+  margin: 1.957em;
+
+}
+
+img:hover{
+  max-width: 60%;
+  height: auto;
+}
+/*.transgression {
   position: relative;
-  margin-left: 39em;
-  margin-top: -35.118em;
-  height: 20%;
-  margin-bottom: 4.75em;
+
 
   }
 
 .atari {
   position: relative;
-  margin-left: 39em;
-  margin-top: -46.971em;
-  margin-bottom: 8.291em;
 
   }
 
