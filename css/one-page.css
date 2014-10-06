@@ -47,7 +47,7 @@ body {
   color: white;
   background-color: black;
   }
- 
+
 h1 {
 	font-weight: bold;
 	font-size: 2.618em;
@@ -96,15 +96,14 @@ ul {
   background-color: black;
   }
 
-.section_title {
+h4 {
   font-family: "Monaco";
   text-indent: 2.157em;
   position: static;
 }
 
 
-/*Special Hover Effects for text*/
-.section_title:hover {
+h4:hover {
   color : #3CB371;
   font-family: "Helvetica";
   font-weight: bolder;
@@ -173,7 +172,7 @@ img:hover{
 .games h1 {
   visibility: hidden;
   }
-  
+
 .art h1 {
   visibility: hidden;
   }
