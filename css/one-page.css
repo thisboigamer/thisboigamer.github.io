@@ -38,7 +38,7 @@ html {
   color: #000;
   padding: .286em .286em;
   font-size: 1.21 em;
-  font-family: "Monaco";
+  font-family: Monaco, Consolas, Lucida Console, monospace;;
 }
 
 /*Webpage font formats*/
@@ -51,7 +51,7 @@ body {
 h1 {
 	font-weight: bold;
 	font-size: 2.618em;
-	font-family: "Monaco";
+	font-family: Monaco, Consolas, Lucida Console, monospace;;
 	line-height: .749em;
 	color: #3CB371;
   background-color: none;
@@ -65,7 +65,7 @@ h2 {
   font-size: 1.957em;
   line-height: .056em;
   margin: 1.618em;
-  font-family: "Monaco";
+  font-family: Monaco, Consolas, Lucida Console, monospace;;
   font-weight: bold;
   background-color: black;
   color: white;
@@ -75,7 +75,7 @@ h3 {
   font-style: italic;
   margin: .748em;
   font-size:1.21em;
-  font-family: "Monaco";
+  font-family: Monaco, Consolas, Lucida Console, monospace;;
   background-color: black;
   }
 
@@ -86,7 +86,7 @@ p {
 	font-size: 1em;
 	line-height: 1.618em;
 	margin-left: 3.167em;
-	font-family: "Helvetica";
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;;
 	background-color: black;
 }
 
@@ -97,7 +97,7 @@ ul {
   }
 
 h4 {
-  font-family: "Monaco";
+  font-family: Monaco, Consolas, Lucida Console, monospace;
   text-indent: 2.157em;
   position: static;
 }
@@ -105,7 +105,7 @@ h4 {
 
 h4:hover {
   color : #3CB371;
-  font-family: "Helvetica";
+  font-family: font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;;
   font-weight: bolder;
   }
 
