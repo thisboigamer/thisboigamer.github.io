@@ -144,7 +144,6 @@ img:hover{
 .headerCover {
 
   background: url('image/this-boi-gamer-header02.jpg') no-repeat top center fixed;
-  background-size: 60%;
   background-clip: padding-box;
 }
 
