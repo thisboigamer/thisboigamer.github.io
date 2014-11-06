@@ -200,9 +200,9 @@ img:hover{
 /*For non-mobile screens*/
 @media screen and (min-width: 50em) {
   p {
-    width: 90%;
     max-width: 40em;
     margin-left: 3.167em;
+    background-size: 60%;
   }
 
 }
