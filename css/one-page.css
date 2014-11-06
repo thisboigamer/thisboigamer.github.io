@@ -142,9 +142,7 @@ img:hover{
 /*Background Images*/
 
 .headerCover {
-  width: 100%;
-  max-width: 100%;
-  min-width: 60%;
+
   background: url('image/this-boi-gamer-header02.jpg') no-repeat top center fixed;
   background-size: 60%;
   background-clip: padding-box;
@@ -190,6 +188,11 @@ img:hover{
   p {
     max-width: 20em;
     margin-left:1.618em;
+    }
+  .headerCover {
+    width: 90%
+    max-width: 35em;
+
 
 
   }
