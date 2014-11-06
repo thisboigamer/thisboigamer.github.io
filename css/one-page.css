@@ -26,15 +26,15 @@ html {
 
 #navigate {
   margin-top: 0em;
-  background-color: black;
+  background-color: green;
   }
 #navigate li {
   display: inline-block;
-  background-color: black;
+  background-color: green;
 }
 #navigate a {
   display: inline-block;
-  background-color: #3CB371;
+  background-color: green;
   color: #000;
   padding: .286em .286em;
   font-size: 1.21 em;
@@ -62,7 +62,7 @@ h1 {
 
 h2 {
   font-size: 1.957em;
-  line-height: .056em;
+  line-height: 1em;
   margin: 1.618em;
   font-family: Monaco, Consolas, Lucida Console, monospace;;
   font-weight: bold;
@@ -89,7 +89,6 @@ p {
 }
 
 ul {
-  margin: 2.157em;
   font-size: 1.21em;
   background-color: black;
   }
@@ -182,9 +181,16 @@ img:hover{
 
 @media screen and (min-width: 1em) {
   p {
+    width:60%;
     max-width: 20em;
     margin-left:1.618em;
     }
+
+  ul {
+  margin: 1em;
+
+  }
+
   .headerCover {
     width: 90%
     max-width: 35em;
@@ -195,13 +201,49 @@ img:hover{
 
 }
 /*For non-mobile screens*/
-@media screen and (min-width: 50em) {
+@media screen and (min-width: 45em) {
   p {
+    width:60%;
     max-width: 40em;
     margin-left: 3.167em;
     background-size: 60%;
   }
+  ul {
+  margin: 1.0em;
+  }
 
+}
+
+@media screen and (min-width: 80em) {
+
+  p {
+    width:75%
+    max-width: 40em;
+    margin-left: 3.167em;
+  }
+
+  ul {
+  margin: 2.157em;
+
+  }
+
+}
+
+@media screen and (min-width: 150em) {
+   p {
+    width:75%
+    max-width: 40em;
+    margin: 0 auto 3em auto;
+  }
+  h1,h2,h3,h4{
+    text-align: center;
+  }
+  ul, #navigate{
+  display: inline-block;
+  margin: 0 auto 0 auto;
+  width: 75%;
+  max-width: 100em;
+  }
 }
 
 
