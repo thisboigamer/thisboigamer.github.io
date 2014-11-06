@@ -148,10 +148,9 @@ img:hover{
 }
 
 .games {
-
   background: url('image/cover.jpg') no-repeat center center fixed;
-
   background-clip: padding-box;
+  height: auto;
 }
 
 .art {
