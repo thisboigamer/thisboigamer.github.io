@@ -212,6 +212,7 @@ img:hover{
   width: 75%;
   margin-left: 1em;
   max-width: 30em;
+  margin-bottom: 0.49em;
   }
 
 }
@@ -221,7 +222,6 @@ img:hover{
     width:60%;
     max-width: 40em;
     margin-left: 3.167em;
-    margin-bottom: 0.49em;
     background-size: 60%;
   }
   ul {
