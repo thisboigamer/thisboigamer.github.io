@@ -189,8 +189,7 @@ img:hover{
 
 @media screen and (min-width: 1em) {
   p {
-    width: 90%;
-    max-width: 35em;
+    max-width: 20em;
     margin-left:1.618em;
 
 
