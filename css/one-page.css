@@ -24,21 +24,24 @@ html {
 
 /*Navigation bar layout*/
 
-#navigate {
+#navigation {
   margin-top: 0em;
-  background-color: green;
+  line-height: 1em;
+  background-color: black;
   }
-#navigate li {
+#navigation li {
   display: inline-block;
   background-color: green;
+  border-color: black;
 }
-#navigate a {
+#navigation a {
   display: inline-block;
   background-color: green;
   color: #000;
   padding: .286em .286em;
-  font-size: 1.21 em;
-  font-family: Monaco, Consolas, Lucida Console, monospace;;
+  font-size: 1em;
+  font-family: Monaco, Consolas, Lucida Console, monospace;
+
 }
 
 /*Webpage font formats*/
@@ -63,7 +66,7 @@ h1 {
 h2 {
   font-size: 1.957em;
   line-height: 1em;
-  margin: 1.618em;
+  margin-top: 1.618em;
   font-family: Monaco, Consolas, Lucida Console, monospace;;
   font-weight: bold;
   background-color: black;
@@ -213,6 +216,17 @@ img:hover{
   }
 
 }
+#navigation{
+  width:75%
+    max-width: 40em;
+    margin: 0 auto 3em auto;
+
+  }
+  #navigation li {
+  display: inline-block;
+  width: auto;
+  max-width: 15em;
+  }
 
 @media screen and (min-width: 80em) {
 
@@ -238,12 +252,18 @@ img:hover{
   h1,h2,h3,h4{
     text-align: center;
   }
-  ul, #navigate{
-  display: inline-block;
-  margin: 0 auto 0 auto;
-  width: 75%;
-  max-width: 100em;
+  #navigation{
+  width:75%
+    max-width: 40em;
+    margin: 0 auto 3em auto;
+
   }
+  #navigation li {
+  display: inline-block;
+  width: auto;
+  max-width: 15em;
+  }
+
 }
 
 
