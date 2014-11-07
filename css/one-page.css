@@ -22,6 +22,14 @@ html {
 	font-size: .824em;
 }
 
+/*
+====================================
+Golden Scale:
+18px = 1em
+1 em = .056em
+====================================
+*/
+
 /*Navigation bar layout*/
 
 #navigation {
@@ -53,7 +61,7 @@ body {
 
 h1 {
 	font-weight: bold;
-	font-size: 2.618em;
+	font-size: 4.223em;
 	font-family: Monaco, Consolas, Lucida Console, monospace;;
 	line-height: 11.089em;
 	color: #3CB371;
@@ -64,9 +72,10 @@ h1 {
 
 
 h2 {
-  font-size: 1.957em;
+  font-size: 2.618em;
   line-height: 1em;
   margin-top: 1.618em;
+  padding: 1em 0 1em 0;
   font-family: Monaco, Consolas, Lucida Console, monospace;;
   font-weight: bold;
   background-color: black;
@@ -76,7 +85,8 @@ h2 {
 h3 {
   font-style: italic;
   margin: .748em;
-  font-size:1.21em;
+  line-height:1.618em;
+  font-size: 2.618em;
   font-family: Monaco, Consolas, Lucida Console, monospace;;
   background-color: black;
   }
@@ -84,7 +94,7 @@ h3 {
 
 
 p {
-	margin: 1.21em;
+	margin: 1.613em 0 1.613em 0;
 	font-size: 1em;
 	line-height: 1.618em;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;;
@@ -92,14 +102,16 @@ p {
 }
 
 ul {
-  font-size: 1.21em;
+  font-size: 1.613em;
   background-color: black;
   }
 
 h4 {
   font-family: Monaco, Consolas, Lucida Console, monospace;
-  text-indent: 2.157em;
+  text-indent: 2.61em;
   position: static;
+  line-height: 1.618em;
+  font-size: 1.613em;
 }
 
 
@@ -109,17 +121,21 @@ h4:hover {
   font-weight: bolder;
   }
 
+h5 {
+  text-transform: uppercase;
+  font-family: Monaco, Consolas, Lucida Console, monospace;
+  font-size: 1em;
+  line-height: 1em;
+  margin-top:1em;
+}
 
 
 a {
-  font-size: 1.957em;
-  line-height: 1.21em;
+  font-size: 1.618em;
+  line-height: 1.61em;
 }
 
-aside {
-  float: right;
-  position: relative;
-  }
+
 
 /*Webpage images*/
 
@@ -129,7 +145,7 @@ img{
   height: auto;
   display : boxed;
   position : relative;
-  margin: 1.957em;
+  margin: 1.618em;
 
 }
 
@@ -193,6 +209,9 @@ img:hover{
   margin: 1em;
 
   }
+  h2{
+  text-indent: .618em;
+  }
 
   .headerCover {
     width: 90%
@@ -221,11 +240,14 @@ img:hover{
   p {
     width:60%;
     max-width: 40em;
-    margin-left: 3.167em;
+    margin-left: 4.223em;
     background-size: 60%;
   }
   ul {
   margin: 1.0em;
+  }
+  h2{
+  text-indent: 1.613em;
   }
 
 #navigation{
@@ -246,11 +268,14 @@ img:hover{
   p {
     width:75%
     max-width: 40em;
-    margin-left: 3.167em;
+    margin-left: 4.223em;
+  }
+  h2{
+  text-indent: 1.613em;
   }
 
   ul {
-  margin: 2.157em;
+  margin: 2.168em;
 
   }
   #navigation{
@@ -268,14 +293,21 @@ img:hover{
 }
 
 @media screen and (min-width: 150em) {
-   p {
+   p{
     width:75%
     max-width: 40em;
-    margin: 0 auto 3em auto;
+    margin: 0 auto 1em auto;
   }
+
   h1,h2,h3,h4{
     text-align: center;
   }
+
+  h5{
+    text-align: left;
+    margin-left: 35%;
+  }
+
   #navigation{
   width:75%
     max-width: 40em;
