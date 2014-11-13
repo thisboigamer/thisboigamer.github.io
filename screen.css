@@ -63,9 +63,7 @@ h2 {
 }
 
 h3 {
-  font-style: italic;
   margin: .49em;
-
   line-height:1.5em;
   font-size: 1.82em;
   font-family: Monaco, Consolas, Lucida Console, monospace;
@@ -73,9 +71,10 @@ h3 {
   }
 
 h4 {
+  font-style: italic;
   font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 1.125em;
-  font-size: 1.5em;
+  font-size: 1.125em;
   margin-left: .824em;
   margin-top: .824em;
   margin-bottom: .49em;
@@ -85,7 +84,7 @@ h5 {
   font-variant: small-caps;
   font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 1em;
-  font-size: 1.5em;
+  font-size: 1.125em;
   margin-left: .824em;
   margin-top: .824em;
   margin-bottom: .49em;
@@ -198,23 +197,23 @@ ul {
   }
 
 .headerBox{
-  position: fixed;
+  position: static;
   width: 100%;
   background-color: black;
   }
 
   article{
   display: block;
-  padding-top: 16em;
+  padding-top: 0em;
   margin-left: 1.618em;
   margin-bottom: 3.491em;
   }
 
   h3{
-    margin-left: 1.618em;
+    margin-left: 2.618em;
   }
   h4{
-    margin-left: 3.491em;
+    margin-left: 4.223em;
   }
   h5{
     margin-left: 2.618em;
@@ -235,7 +234,7 @@ ul {
     margin: -14.785em 15%;
   }
 
-.contact li img {
+  .contact li img {
     display: inline-block;
     width: 30%;
     margin: 1.618em;
@@ -247,10 +246,11 @@ ul {
   article {
     margin-left: 10%;
   }
+
   .vogue {
     visibility: visible;
     width: 15%;
-    margin-top:3em;
+    margin-top: -17em;
   }
 
   .gallery li img {
