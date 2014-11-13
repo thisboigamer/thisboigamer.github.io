@@ -68,7 +68,7 @@ h3 {
 
   line-height:1.333em;
   font-size: 1.618em;
-  font-family: Monaco, Consolas, Lucida Console, monospace;;
+  font-family: Monaco, Consolas, Lucida Console, monospace;
   background-color: black;
   }
 
@@ -101,6 +101,19 @@ p {
 	padding: .49em;
 	margin-left: 1em;
 }
+
+a{
+  line-height: 1.618em;
+  font-size:1em;
+  font-family: Monaco, Consolas, Lucida Console, monospace;
+  color : #3CB371;
+  }
+
+a:hover {
+  color : white;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;;
+  font-weight: bolder;
+  }
 
 ul {
   font-size: 1em;
@@ -138,9 +151,15 @@ ul {
   font-family: Monaco, Consolas, Lucida Console, monospace;
   }
 
+
 /* MODULES  */
 
-
+.vogue{
+  position: fixed;
+  float: left;
+  margin-left: 1em;
+  visibility:hidden;
+  }
 
 /* STATES */
 /* Media Queries */
@@ -184,11 +203,14 @@ ul {
     max-width: 40em;
     margin-left: 4.223em;
   }
+
+
   ul{
   width:75%;
     max-width: 35em;
     margin-left: 5.648em;
   }
+
 
 }
 
@@ -196,17 +218,28 @@ ul {
   article {
     margin-left: 10%;
   }
+   .vogue {
+    visibility: visible;
+    width: 10%;
+    margin-top:14em;
+  }
 }
 
 @media screen and (min-width: 70em) {
   article {
     margin-left: 20%;
   }
+  .vogue {
+    width: 20%;
+  }
 }
 
 @media screen and (min-width: 100em) {
   article {
     margin-left: 30%;
+  }
+  .vogue {
+    width: 30%;
   }
 }
 
