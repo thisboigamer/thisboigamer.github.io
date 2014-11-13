@@ -184,6 +184,11 @@ ul {
     max-width: 40em;
     margin-left: 4.223em;
   }
+  ul{
+  width:75%;
+    max-width: 35em;
+    margin-left: 5.648em;
+  }
 
 }
 
