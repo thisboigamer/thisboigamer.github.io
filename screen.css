@@ -36,7 +36,14 @@ html{
   color: white;
   background-color: black;
 }
-
+h1 {
+	font-weight: bold;
+	font-size: 4.223em;
+	font-family: Monaco, Consolas, Lucida Console, monospace;;
+	line-height: 2em;
+	color: #3CB371;
+  background-color: none;
+  }
 
 /* LAYOUT RULES */
 /* MODULES  */
