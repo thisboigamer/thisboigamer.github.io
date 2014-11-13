@@ -133,19 +133,20 @@ ul {
 
 #navigation li {
   background-color: #3CB371;
-  display: block;
-  width: 90%;
-  margin-left: .49em;
-  max-width: 30em;
-  margin-bottom: 0.49em;
+  padding: .286em .286em;
+
+  display: inline-block;
 }
 
 #navigation a {
   display: inline-block;
   color: #000;
-  padding: .286em .286em;
   font-size: 1em;
   font-family: Monaco, Consolas, Lucida Console, monospace;
+  margin-bottom: 0.49em;
+  margin-left: .49em;
+  width: 90%;
+  max-width: 30em;
   }
 
 
@@ -185,12 +186,12 @@ ul {
 
 @media screen and (min-width: 38em) {
   #navigation{
-  width:75%
-    max-width: 40em;
-    margin: 0 auto 1em auto;
+  width:80%;
+  max-width: 40em;
+  margin: 0 auto 1em auto;
   }
 
-  #navigation li {
+  #navigation a {
   display: inline-block;
   width: auto;
   max-width: 15em;
