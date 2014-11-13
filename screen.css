@@ -26,7 +26,7 @@ html {
 ====================================
 Golden Scale:
 18px = 1em
-1 em = .056em
+1 px = .056em
 ====================================
 */
 
@@ -38,17 +38,151 @@ html{
 }
 h1 {
 	font-weight: bold;
-	font-size: 4.223em;
+	font-size: 2.157em;
 	font-family: Monaco, Consolas, Lucida Console, monospace;;
-	line-height: 2em;
+	line-height: 1em;
 	color: #3CB371;
   background-color: none;
+  text-align: center;
+  margin-top: .49em;
+  font-variant: small-caps;
+
   }
 
+
+h2 {
+  font-size: 1.618em;
+  line-height: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-family: Monaco, Consolas, Lucida Console, monospace;;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+h3 {
+  font-style: italic;
+  margin: .49em;
+
+  line-height:1.333em;
+  font-size: 1.618em;
+  font-family: Monaco, Consolas, Lucida Console, monospace;;
+  background-color: black;
+  }
+
+h4 {
+  font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1em;
+  font-size: 1.333em;
+  margin-left: .824em;
+  margin-top: .824em;
+  margin-bottom: .49em;
+}
+
+h5 {
+  font-variant: small-caps;
+  font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1em;
+  font-size: 1.333em;
+  margin-left: .824em;
+  margin-top: .824em;
+  margin-bottom: .49em;
+
+}
+
+
+p {
+	font-size: 1em;
+	line-height: 1.618em;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	width: 90%;
+	padding: .49em;
+	margin-left: 1em;
+}
+
+ul {
+  font-size: 1em;
+  line-height: 1.618em;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	width: 90%;
+	margin-left: 1.618em;
+	list-style: square outside none;
+  }
+
+
+
 /* LAYOUT RULES */
+#navigation {
+  line-height: 1em;
+  width:75%;
+  max-width: 40em;
+  margin: 0 auto 1.618em auto;
+  }
+
+#navigation li {
+  background-color: #3CB371;
+  display: block;
+  width: 90%;
+  margin-left: .49em;
+  max-width: 30em;
+  margin-bottom: 0.49em;
+}
+
+#navigation a {
+  display: inline-block;
+  color: #000;
+  padding: .286em .286em;
+  font-size: 1em;
+  font-family: Monaco, Consolas, Lucida Console, monospace;
+  }
+
 /* MODULES  */
+
+
+
 /* STATES */
 /* Media Queries */
 
+@media screen and (min-width: 38em) {
+  #navigation{
+  width:75%
+    max-width: 40em;
+    margin: 0 auto 1em auto;
+  }
 
+  #navigation li {
+  display: inline-block;
+  width: auto;
+  max-width: 15em;
+  }
+
+.headerBox{
+  position: fixed;
+  width: 100%;
+  background-color: black;
+  }
+
+  article{
+  padding-top: 16em;
+  margin-left: 1.618em;
+  }
+
+  h3{
+    margin-left: 1.618em;
+  }
+  h4{
+    margin-left: 3.491em;
+  }
+  h5{
+    margin-left: 2.618em;
+  }
+  p{
+    width:75%;
+    max-width: 40em;
+    margin-left: 4.223em;
+  }
+
+}
 
