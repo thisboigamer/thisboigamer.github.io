@@ -18,8 +18,8 @@ html {
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
 	text-size-adjust: 100%;
-	line-height: 1em; /* 24px at golden scale */
-	font-size: 1em;
+	line-height: 1.125em;
+	font-size: 1.125em;
 }
 
 /*
@@ -38,9 +38,9 @@ html{
 }
 h1 {
 	font-weight: bold;
-	font-size: 2.157em;
+	font-size: 2.427em;
 	font-family: Monaco, Consolas, Lucida Console, monospace;;
-	line-height: 1em;
+	line-height: 1.125em;
 	color: #3CB371;
   background-color: none;
   text-align: center;
@@ -51,8 +51,8 @@ h1 {
 
 
 h2 {
-  font-size: 1.618em;
-  line-height: 1em;
+  font-size: 1.82em;
+  line-height: 1.125em;
   padding-top: 1em;
   padding-bottom: 1em;
   font-family: Monaco, Consolas, Lucida Console, monospace;;
@@ -66,16 +66,16 @@ h3 {
   font-style: italic;
   margin: .49em;
 
-  line-height:1.333em;
-  font-size: 1.618em;
+  line-height:1.5em;
+  font-size: 1.82em;
   font-family: Monaco, Consolas, Lucida Console, monospace;
   background-color: black;
   }
 
 h4 {
   font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
-  line-height: 1em;
-  font-size: 1.333em;
+  line-height: 1.125em;
+  font-size: 1.5em;
   margin-left: .824em;
   margin-top: .824em;
   margin-bottom: .49em;
@@ -85,7 +85,7 @@ h5 {
   font-variant: small-caps;
   font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 1em;
-  font-size: 1.333em;
+  font-size: 1.5em;
   margin-left: .824em;
   margin-top: .824em;
   margin-bottom: .49em;
@@ -94,7 +94,7 @@ h5 {
 
 
 p {
-	font-size: 1em;
+	font-size: 1.125em;
 	line-height: 1.618em;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	width: 90%;
@@ -103,8 +103,8 @@ p {
 }
 
 a{
-  line-height: 1.618em;
-  font-size:1em;
+  line-height: 1.82em;
+  font-size:1.125em;
   font-family: Monaco, Consolas, Lucida Console, monospace;
   color : #3CB371;
   }
@@ -118,7 +118,7 @@ ul {
   line-height: 1.618em;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	width: 90%;
-	margin-left: 1.618em;
+	margin-left: 1.82em;
 	list-style: square outside none;
   }
 
@@ -243,7 +243,7 @@ ul {
 
 }
 
-@media screen and (min-width: 60em){
+@media screen and (min-width: 67em){
   article {
     margin-left: 10%;
   }
@@ -262,7 +262,7 @@ ul {
 
 }
 
-@media screen and (min-width: 70em) {
+@media screen and (min-width: 78em) {
   article {
     margin-left: 20%;
   }
@@ -271,7 +271,7 @@ ul {
   }
 }
 
-@media screen and (min-width: 103em) {
+@media screen and (min-width: 116em) {
   article {
     margin-left: 30%;
   }
