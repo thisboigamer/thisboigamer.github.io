@@ -147,6 +147,7 @@ ul {
   margin-left: .49em;
   width: 90%;
   max-width: 30em;
+  background-color: #3CB371;
   }
 
 
@@ -232,7 +233,7 @@ ul {
     margin-left: 5.648em;
   }
   .contact{
-    margin: -14.785em 15%;
+
   }
 
   .contact li img {
