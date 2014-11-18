@@ -39,7 +39,7 @@ html{
 h1 {
 	font-weight: bold;
 	font-size: 2.427em;
-	font-family: Monaco, Consolas, Lucida Console, monospace;;
+	font-family: Monaco, Consolas, Lucida Console, monospace;
 	line-height: 1.125em;
 	color: #3CB371;
   background-color: none;
@@ -72,7 +72,7 @@ h3 {
 
 h4 {
   font-style: italic;
-  font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family:  Monaco, Consolas, Lucida Console, monospace;
   line-height: 1.125em;
   font-size: 1.125em;
   margin-left: .824em;
