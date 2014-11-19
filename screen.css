@@ -165,6 +165,12 @@ ul {
   visibility:hidden;
   }
 
+.cover{
+  position: static;
+  width: 90%;
+  margin: 0 auto 0 auto;
+}
+
 .gallery li  {
 
   list-style: none outside none;
@@ -223,7 +229,7 @@ ul {
     margin-left: 4.223em;
   }
   h5{
-    margin-left: 2.618em;
+    margin-left: 4.223em;
   }
   p{
     width:75%;
@@ -257,7 +263,7 @@ ul {
   .vogue {
     visibility: visible;
     width: 15%;
-    margin-top: -17em;
+    margin-top: -12em;
   }
 
   .gallery li img {
