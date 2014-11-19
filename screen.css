@@ -42,7 +42,6 @@ h1 {
 	font-family: Monaco, Consolas, Lucida Console, monospace;
 	line-height: 1.125em;
 	color: #3CB371;
-  background-color: none;
   text-align: center;
   margin-top: .49em;
   font-variant: small-caps;
@@ -101,6 +100,10 @@ p {
 	margin-left: 1em;
 }
 
+strong {
+  font-style: italic;
+}
+
 a{
   line-height: 1.82em;
   font-size:1.125em;
@@ -133,7 +136,7 @@ ul {
 
 #navigation li {
   background-color: #3CB371;
-  width: 90%
+  width: 90%;
   display: block;
   margin-left: .49em;
   max-width: 30em;
