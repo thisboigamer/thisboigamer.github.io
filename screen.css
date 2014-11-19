@@ -133,21 +133,23 @@ ul {
 
 #navigation li {
   background-color: #3CB371;
-  padding: .286em .286em;
-
-  display: inline-block;
+  width: 90%
+  display: block;
+  margin-left: .49em;
+  max-width: 30em;
+  margin-bottom: .49em;
+  color: black;
 }
 
 #navigation a {
   display: inline-block;
   color: #000;
+  width: 90%;
+  padding-left: .268em;
   font-size: 1em;
   font-family: Monaco, Consolas, Lucida Console, monospace;
-  margin-bottom: 0.49em;
-  margin-left: .49em;
-  width: 90%;
   max-width: 30em;
-  background-color: #3CB371;
+  padding-right: 3em;
   }
 
 
@@ -187,12 +189,12 @@ ul {
 
 @media screen and (min-width: 38em) {
   #navigation{
-  width:80%;
+  width:auto;
   max-width: 40em;
   margin: 0 auto 1em auto;
   }
 
-  #navigation a {
+  #navigation li {
   display: inline-block;
   width: auto;
   max-width: 15em;
