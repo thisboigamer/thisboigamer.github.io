@@ -124,7 +124,18 @@ ul {
 	list-style: square outside none;
   }
 
-
+/* VITA STYLES */
+.education {
+  list-style-type: none;
+}
+.education h5, .education ul {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+.education .honors {
+  font-weight: bold;
+}
 
 /* LAYOUT RULES */
 #navigation {
