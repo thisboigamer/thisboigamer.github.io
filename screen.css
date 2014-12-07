@@ -155,10 +155,7 @@ ul {
   padding-right: 3em;
   }
 
-
-/* MODULES  */
-
-.description{
+#description{
   font-size: 1.125em;
   line-height: 1.125em;
   padding-top: 1em;
@@ -169,6 +166,11 @@ ul {
   color: white;
   text-align: center;
 }
+
+
+/* MODULES  */
+
+
 
 
 .vogue{
