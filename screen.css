@@ -292,7 +292,7 @@ ul {
     width: 20%;
     margin: 1.618em;
 }
-  #posts li {
+  #posts {
   float: left;
   display: inline-block;
   }
