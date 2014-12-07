@@ -169,6 +169,7 @@ ul {
 
 #posts {
   background-color: #3CB371;
+  width: 90%;
 }
 
 #posts li {
@@ -295,6 +296,7 @@ ul {
   #posts {
   float: left;
   display: inline-block;
+  width: 40%;
   }
 
 }
