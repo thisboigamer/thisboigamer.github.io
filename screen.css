@@ -171,6 +171,9 @@ ul {
   background-color: #3CB371;
 }
 
+#posts li {
+}
+
 /* MODULES  */
 
 
@@ -289,7 +292,10 @@ ul {
     width: 20%;
     margin: 1.618em;
 }
-
+  #posts li {
+  float: left;
+  display: inline-block;
+  }
 
 }
 
@@ -301,10 +307,7 @@ ul {
     width: 20%;
   }
 
-  #posts ul li {
-  float: left;
-  display: inline-block;
-  }
+
 }
 
 @media screen and (min-width: 116em) {
