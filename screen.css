@@ -171,10 +171,6 @@ ul {
   background-color: #3CB371;
 }
 
-#posts ul li {
-  float: left;
-}
-
 /* MODULES  */
 
 
@@ -303,6 +299,11 @@ ul {
   }
   .vogue {
     width: 20%;
+  }
+
+  #posts ul li {
+  float: left;
+  display: inline-block;
   }
 }
 
