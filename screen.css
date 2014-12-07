@@ -155,7 +155,7 @@ ul {
   padding-right: 3em;
   }
 
-#description{
+#description {
   font-size: 1.125em;
   line-height: 1.125em;
   padding-top: 1em;
@@ -167,6 +167,13 @@ ul {
   text-align: center;
 }
 
+#posts {
+  background-color: #3CB371;
+}
+
+#posts ul li {
+  float: left;
+}
 
 /* MODULES  */
 
