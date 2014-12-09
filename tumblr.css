@@ -162,7 +162,7 @@ ul {
   padding-right: 3em;
   }
 
-#description {
+header #description {
   font-size: 1.125em;
   line-height: 1.125em;
   padding-top: 1em;
@@ -177,24 +177,38 @@ ul {
 #posts {
   display: block;
   margin: 2em;
+  width: 100%;
+  max-width: 200em;
+
 }
 #posts li{
   display: inline-block;
   background-color: #3CB371;
   width: 90%;
-  max-width: 45em;
+  max-width: 50em;
+  float: left;
+  margin-right: 3em;
+  margin-bottom: 2em;
+
 }
 
 #posts footer {
-  display: block;
   background-color: black;
+  margin-bottom: 3em;
 }
 
-#poster footer li {
+#posts footer li {
   display: inline-block;
   width: 90%;
-  max-width: 45em;
+  max-width: 5em;
+  background-color: black;
 }
+#posts footer #tags {
+   display: inline-block;
+
+
+}
+
 
 
 /* MODULES  */
@@ -202,41 +216,11 @@ ul {
 
 
 
-.vogue{
-  position: fixed;
-  float: left;
-  margin-left: 1em;
-  visibility:hidden;
-  }
 
-.cover{
-  position: static;
-  width: 90%;
-  margin: 0 auto 0 auto;
-}
 
-.gallery li  {
 
-  list-style: none outside none;
-}
 
-.gallery li img {
-  display: inline-block;
-  width: 80%;
-  float: left;
-  margin: .824em auto .824em auto;}
 
-.contact li  {
-
-  list-style: none outside none;
-}
-
-.contact li img{
-  display: inline-block;
-  width: 60%;
-  float: left;
-  margin: .824em auto .824em auto;
-}
 /* STATES */
 /* Media Queries */
 
@@ -259,13 +243,6 @@ ul {
   background-color: black;
   }
 
-  article{
-  display: block;
-  padding-top: 0em;
-  margin-left: 1.618em;
-  margin-bottom: 3.491em;
-  }
-
   h3{
     margin-left: 2.618em;
   }
@@ -282,14 +259,7 @@ ul {
   }
 
 
-  ul{
-  width:75%;
-    max-width: 35em;
-    margin-left: 5.648em;
-  }
-  .contact{
 
-  }
 
   .contact li img {
     display: inline-block;
@@ -300,46 +270,16 @@ ul {
 }
 
 @media screen and (min-width: 67em){
-  article {
-    margin-left: 10%;
-  }
 
-  .vogue {
-    visibility: visible;
-    width: 15%;
-    margin-top: -12em;
-  }
 
-  .gallery li img {
-    display: inline-block;
-    width: 20%;
-    margin: 1.618em;
-}
-  #posts {
-  float: left;
-  display: inline-block;
-  width: 40%;
-  }
 
 }
 
 @media screen and (min-width: 78em) {
-  article {
-    margin-left: 20%;
-  }
-  .vogue {
-    width: 20%;
-  }
+
 
 
 }
 
 @media screen and (min-width: 116em) {
-  article {
-    margin-left: 30%;
-  }
-  .vogue {
-    width: 30%;
-  }
 }
-
