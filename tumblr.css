@@ -176,13 +176,13 @@ ul {
 
 #posts {
   display: block;
+  margin: 2em;
 }
 #posts li{
   display: inline-block;
   background-color: #3CB371;
   width: 90%;
   max-width: 45em;
-  margin: 2em;
 }
 
 #posts footer {
