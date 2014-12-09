@@ -184,6 +184,17 @@ ul {
   max-width: 45em;
 }
 
+#posts footer {
+  display: block;
+  background-color: black;
+}
+
+#poster footer li {
+  display: inline-block;
+  width: 90%;
+  max-width: 45em;
+}
+
 
 /* MODULES  */
 
