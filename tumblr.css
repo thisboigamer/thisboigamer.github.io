@@ -178,8 +178,8 @@ header #description {
 
 #posts {
   display: block;
-  margin: 2em;
-  width: 100%;
+  margin: .5em;
+  width: 90%;
   max-width: 200em;
 
 }
@@ -241,11 +241,7 @@ header #description {
   max-width: 15em;
   }
 
-.headerBox{
-  position: static;
-  width: 100%;
-  background-color: black;
-  }
+
 
   h3{
     margin-left: 2.618em;
