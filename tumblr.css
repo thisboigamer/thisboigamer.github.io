@@ -131,6 +131,10 @@ ul {
 	list-style: square outside none;
   }
 
+footer{
+  position: absolute;
+}
+
 
 
 /* LAYOUT RULES */
@@ -200,14 +204,16 @@ header #description {
 #posts footer li {
   display: inline-block;
   width: 90%;
-  max-width: 5em;
+  max-width: 10em;
   background-color: black;
 }
 #posts footer #tags {
    display: inline-block;
+   font-size: .69em;
 
 
 }
+
 
 
 
