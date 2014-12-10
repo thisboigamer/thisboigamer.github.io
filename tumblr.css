@@ -257,8 +257,9 @@ margin-left: .618em;
   padding-bottom:2.5em;
   text-align: center;
   margin: 0;
-  padding-left: 0
-  padding-right: 0
+  padding-left: 0;
+  padding-right: 0;
+  line-height: 1em;
 }
 
 .postQuote .source {
@@ -312,7 +313,6 @@ margin-left: .618em;
     margin: 3em;
   }
   .postQuote p{
-  padding-left: 4.223em;
   max-width:90%
   }
   iframe, img {
