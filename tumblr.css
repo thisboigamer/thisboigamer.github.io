@@ -38,7 +38,7 @@ html{
 }
 
 header{
-  width: 75%;
+
   max-width: 70em;
   margin: 0 auto 0 auto;
 }
@@ -73,7 +73,7 @@ h3 {
   line-height:1.5em;
   font-size: 1.82em;
   font-family: Monaco, Consolas, Lucida Console, monospace;
-  background-color: black;
+
   }
 
 h4 {
@@ -133,7 +133,9 @@ ul {
 
 
 article .postText header h3 a{
-  background-color: green;
+  color: black;
+  font-size: 1em;
+  max-width: 20em;
 }
 
 
