@@ -289,11 +289,11 @@ margin-left: .618em;
   }
   p{
     width:75%;
-    max-width: 40em;
+    max-width: 35em;
     margin-left: 4.223em;
   }
   #posts{
-    max-width: 200em;
+    max-width: 150em;
   }
   .caption {
     float: left;
