@@ -69,7 +69,7 @@ h2 {
 }
 
 h3 {
-  margin: .49em;
+  margin: .49em .49em 0 .49em;
   line-height:1.5em;
   font-size: 1.82em;
   font-family: Monaco, Consolas, Lucida Console, monospace;
@@ -105,11 +105,13 @@ p {
 	width: 90%;
 	padding: .49em;
 	margin-left: 1em;
+	float: left;
 }
 
-img {
-  margin: .3em;
-  }
+fieldset, img {
+    border: 0px none;
+    margin: .3em;
+}
 
 strong {
   font-style: italic;
@@ -236,7 +238,7 @@ header #description {
 /* STATES */
 /* Media Queries */
 
-@media screen and (min-width: 38em) {
+@media screen and (min-width: 33.333em) {
   #navigation{
   width:auto;
   max-width: 40em;
@@ -265,14 +267,15 @@ header #description {
     max-width: 40em;
     margin-left: 4.223em;
   }
+  .caption {
+    float: left;
+    width: 60%;
+    max-width: 35em;
+  }
 
 
 
 
-  .contact li img {
-    display: inline-block;
-    width: 30%;
-    margin: 1.618em;
 }
 
 }
