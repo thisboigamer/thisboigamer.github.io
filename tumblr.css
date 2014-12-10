@@ -268,7 +268,9 @@ header #description {
     width:75%;
     max-width: 40em;
     margin-left: 4.223em;
-    float: left;
+  }
+  #posts{
+    max-width: 90em;
   }
   .caption {
     float: left;
