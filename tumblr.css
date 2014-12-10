@@ -110,7 +110,7 @@ p {
 
 fieldset, img {
     border: 0 none;
-    margin: .3em;
+    margin: 1em;
 }
 
 strong {
@@ -276,7 +276,7 @@ header #description {
     float: left;
     width: 60%;
     max-width: 12em;
-    margin: .3em;
+    margin: 1em;
   }
   .postQuote {
   padding-left: 4.223em;
