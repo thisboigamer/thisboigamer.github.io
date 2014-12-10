@@ -224,6 +224,7 @@ header #description {
 
 #footer{
   float: none;
+  bottom: 1em;
 }
 
 
