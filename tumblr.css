@@ -305,8 +305,9 @@ margin-left: .618em;
     max-width: 12em;
     margin: 3em;
   }
-  .postQuote {
+  .postQuote p{
   padding-left: 4.223em;
+  max-width:90%
   }
   iframe, img {
     margin: 1em;
