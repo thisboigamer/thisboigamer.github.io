@@ -231,7 +231,7 @@ position: absolute;
 margin-left: .618em;
 }
 
-#caption li {
+#posts li #caption li {
   margin-bottom: .3em;
 }
 
