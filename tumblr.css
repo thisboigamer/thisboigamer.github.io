@@ -212,7 +212,7 @@ header #description {
 #posts footer li {
   display: inline-block;
   width: 90%;
-  max-width: 10em;
+  max-width: 15em;
   background-color: black;
   margin-bottom: .2em;
 }
@@ -243,6 +243,10 @@ margin-left: .618em;
 
 .caption p a{
   color:black;
+}
+
+.caption p{
+  margin: 0em;
 }
 
 .postQuote {
@@ -289,8 +293,8 @@ margin-left: .618em;
   }
   p{
     width:75%;
-    max-width: 35em;
-    margin-left: 2em;
+    max-width: 30em;
+    margin-left: 4.223em;
   }
   #posts{
     max-width: 150em;
@@ -317,7 +321,13 @@ margin-left: .618em;
 }
 
 @media screen and (min-width: 67em){
-
+  #posts {
+    width: 75%;
+    max-width: 100em;
+  }
+  #posts footer li{
+    display: block;
+  }
 
 
 }
