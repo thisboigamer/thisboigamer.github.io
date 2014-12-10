@@ -223,8 +223,10 @@ header #description {
 }
 
 #footer{
-  float: none;
-  bottom: 1em;
+float: none;
+top: 0em;
+position: absolute;
+margin-left: .618em;
 }
 
 
