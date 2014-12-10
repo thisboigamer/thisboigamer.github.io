@@ -229,7 +229,9 @@ header #description {
 
 
 
-
+.caption p a{
+  color:black;
+}
 
 
 
@@ -273,7 +275,7 @@ header #description {
     max-width: 35em;
   }
   .postQuote {
-  margin-left: 4.223em;
+  padding-left: 4.223em;
   }
 
 
