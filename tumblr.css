@@ -254,7 +254,7 @@ margin-left: .618em;
   font-style: italic;
   padding-top: 2em;
   padding-bottom:2.5em;
-
+  text-align:center;
   margin: 0;
   padding-left: 0;
   padding-right: 0;
@@ -266,10 +266,7 @@ margin-left: .618em;
   font-style: none;
   font-size: 1em;
 }
-.postQuote p{
-  text-align: center;
-  text-size: 1.618em;
-}
+
 
 
 
