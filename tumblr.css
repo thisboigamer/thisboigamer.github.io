@@ -218,6 +218,7 @@ header #description {
 #posts footer #tags {
    display: inline-block;
    font-size: .69em;
+   margin-bottom: .2em;
 
 
 }
@@ -227,6 +228,10 @@ float: none;
 top: 0em;
 position: absolute;
 margin-left: .618em;
+}
+
+#caption li {
+  margin-bottom: .3em;
 }
 
 
